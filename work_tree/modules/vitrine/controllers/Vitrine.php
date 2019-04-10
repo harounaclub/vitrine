@@ -18,6 +18,39 @@ class Vitrine extends MX_Controller {
         
     }
 
+    function quiSommesNous(){
+
+        $this->load->view("quiSommesNous_view");
+         
+    }
+
+    function beneficierReductions(){
+
+        $this->load->view("comment_beneficier_reduction_view");
+         
+    }
+
+    function devenirPartenaire(){
+
+        $this->load->view("comment_devenir_partenaire_view");
+         
+    }
+
+    function nousContacter(){
+
+        $this->load->view("nous_contacter");
+         
+    }
+
+    function seConnecter(){
+
+        $this->load->view("se_connecter_view");
+         
+    }
+    
+
+     
+
 
 
 
