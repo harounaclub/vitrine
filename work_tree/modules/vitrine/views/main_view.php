@@ -20,11 +20,11 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index-2.html">
-            <img src="assets/vitrine/images/logo.png" class="img-responsive" alt="">
+            <img src="<?php echo base_url(); ?>assets/vitrine/images/logo.png" class="img-responsive" alt="">
           </a>
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top:20px;">
 
           <?php include("templates/_menu_principale.php"); ?>
           
@@ -123,6 +123,19 @@
           </div>
         </div>
         <div class="slider-bg-3">
+          <div class="slider-item cplgr-category-slider-item">
+          </div>
+        </div>
+        <div class="slider-bg-4">
+          <div class="slider-item cplgr-category-slider-item">
+          </div>
+        </div>
+
+        <div class="slider-bg-5">
+          <div class="slider-item cplgr-category-slider-item">
+          </div>
+        </div>
+        <div class="slider-bg-6">
           <div class="slider-item cplgr-category-slider-item">
           </div>
         </div>

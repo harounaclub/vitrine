@@ -47,6 +47,24 @@ class Vitrine extends MX_Controller {
         $this->load->view("se_connecter_view");
          
     }
+
+    function souscriptionPartenaire_etape1(){
+
+        $this->load->view("souscription_partenaire_view");
+         
+    }
+
+    function souscriptionPartenaire_etape2(){
+
+        $this->load->view("souscription_partenaire2_view");
+         
+    }
+
+    function souscriptionPartenaire_etape3(){
+
+        $this->load->view("souscription_partenaire3_view");
+         
+    }
     
 
      

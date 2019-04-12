@@ -23,7 +23,7 @@
           </a>
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top:20px;">
           
              <?php include("templates/_menu_principale.php"); ?>
 
@@ -78,7 +78,7 @@
               <div class="text-content">
                 <h3 class="title">Qui sommes nous ?</h3>
                 <p class="subtext">Prix Kdo est une initiative de MECK & CO en vue de faciliter et simplifier la vie aux  populations ivoiriennes et africaines. </p>
-                <p class="subtext">Lancé le 02 Mars 2019, www.prixkdo.ci est le premier site ivoirien de vente en gros et demi-gros. Ce site qui comportera plus de 3000 références, donne la possibilité de faire ses courses en toute simplicité et rapidité et de se faire livrer.  </p>
+                <p class="subtext">Lancé le 02 Mars 2019, www.prixkdo.ci est le premier site ivoirien de vente en gros et demi-gros. Ce site qui comprend plus de 5000 références donne la possibilité de faire ses courses en toute simplicité et rapidité et de se faire livrer.  </p>
                 <p class="subtext">La carte de fidélité Prixkdo  permet à son détenteur de profiter de réductions et/ou avantages sur tous les produits présents sur le site de vente en gros et demi-gros www.prixkdo.ci ainsi que dans notre réseau de partenaires. Cette carte, d’une validité d’un (1) an, ne coute que 10 000f cfa.  </p>
                 <p class="subtext">La boussole prixkdo,c’est l’espace qui permet au détenteur de la carte PRIXKDO de s'orienter dans l'univers PRIXKDO tout en appréciant les avantages proposés par ces derniers.  </p>
               </div>

@@ -38,7 +38,8 @@
             <div class="col-md-12">
               <div class="sub-header-contents">
                 <div class="page-title">
-                  <h3>Espace partenaires</h3>
+                  <h3>Inscription partenaire</h3>
+                  <h5>Inscription Etape 1</h5>
                 </div>
                 <div class="page-info">
                   <div class="row">
@@ -84,7 +85,7 @@
                 </div>
                 
                
-                <button type="submit" class="btn btn-default btn-block">S'inscrire maintenant</button>
+                
                 
                 
               </form>
@@ -94,20 +95,56 @@
           <div class="col-md-6">
             <div class="login-form">
               <form>
-                <h4 class="title">Se connecter</h4>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Nom d'utilisateur ou adresse mail *</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your username">
+                <h4 class="title">Formulaire d'inscription (1/2)</h4>
+                <div class="signup">
+                  <p>Avez-vous déjà un compte ?<a href="#">&nbsp;&nbsp; Se connecter</a></p>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Mot de passe *</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <label for="raison_sociale">Raison sociale *</label>
+                  <input type="text" class="form-control" id="raison_sociale" placeholder="Entrer la raison sociale ou Entreprise">
                 </div>
+
+                <div class="form-group">
+                  <label for="raison_sociale">R.C.C.M *</label>
+                  <input type="text" class="form-control" id="raison_sociale" placeholder="Entrer la raison sociale ou Entreprise">
+                </div>
+
+                <div class="form-group">
+                  <label for="situation_geo">Domaine d'activité *</label>
+                  <input type="text" class="form-control" id="domaine_activite" placeholder="Entrer votre domaine d'activité">
+                </div>
+
+                <div class="form-group">
+                  <label for="situation_geo">Situation géographique *</label>
+                  <input type="text" class="form-control" id="situation_geo" placeholder="Entrer votre situation géographique">
+                </div>
+
+                <div class="form-group">
+                  <label for="tel">Téléphone *</label>
+                  <input type="text" class="form-control" id="tel" placeholder="Entrer votre numéro de condition">
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email </label>
+                  <input type="text" class="form-control" id="email" placeholder="Entrer votre email">
+                </div>
+
+                <div class="form-group">
+                  <label for="tel">Representée par </label>
+                  <input type="text" class="form-control" id="represente_par" placeholder="Entrer votre numéro de condition">
+                </div>
+
+                <div class="form-group">
+                  <label for="tel">Demeurant à </label>
+                  <input type="text" class="form-control" id="represente_par" placeholder="Entrer votre numéro de condition">
+                </div>
+
+                
                 
                
                 <button type="submit" class="btn btn-default btn-block">Se connecter</button>
                 <div class="signup">
-                  <p>Pas encore membre ? <a href="#">Se pre inscrire</a></p>
+                  <p>Avez-vous déjà un compte ?<a href="#">&nbsp;&nbsp; Se connecter</a></p>
                 </div>
                 
               </form>

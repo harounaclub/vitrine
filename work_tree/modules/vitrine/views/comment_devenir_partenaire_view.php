@@ -22,7 +22,7 @@
           </a>
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top:20px;">
 
         <?php include("templates/_menu_principale.php"); ?>
          

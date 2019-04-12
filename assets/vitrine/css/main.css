@@ -685,6 +685,19 @@ a:focus {
   background: url(../images/bg/slider-3.jpg) no-repeat center center;
   background-size: cover; }
 
+.slider-bg-4 {
+    background: url(../images/bg/slider-4.jpg) no-repeat center center;
+    background-size: cover; }
+
+
+.slider-bg-5 {
+      background: url(../images/bg/slider-5.jpg) no-repeat center center;
+      background-size: cover; }
+
+.slider-bg-6 {
+        background: url(../images/bg/slider-6.jpg) no-repeat center center;
+        background-size: cover; }
+
 .listing-details-slider-bg-1 {
   background: url(../images/bg/slider-4.jpg) no-repeat center center;
   background-size: cover; }

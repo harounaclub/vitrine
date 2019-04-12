@@ -22,7 +22,7 @@
           </a>
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top:20px;">
 
         <?php include("templates/_menu_principale.php"); ?>
          
@@ -72,6 +72,7 @@
                   <div class="section-heading">
                     <h3 class="title">01. Se procurer la carte PrixKDO</h3>
                     <br>
+                    <img src="<?php echo base_url(); ?>assets/vitrine/images/etape-1.png" width="600px">
                     <p class="subtext"><b>Etape 1 :</b> Commandez votre carte en remplissant le formulaire sur le site www.prixkdo.ci ou appelez notre service client au 67 77 28 23 / 77 74 77 35 ;</p>
                     <p class="subtext"><b>Etape 2 :</b> Faites-vous livrer votre carte ; </p>
                     <p class="subtext"><b>Etape 3 :</b> Recevez votre sms d’activation de votre carte. </p>
@@ -103,6 +104,7 @@
                   <div class="section-heading">
                     <h3 class="title">02. Parcourir la boutique en ligne</h3>
                     <br>
+                    <img src="<?php echo base_url(); ?>assets/vitrine/images/etape-2.png" width="600px">
                     <p class="subtext"><b>Etape 1 :</b> Rendez-vous sur le site <a href="http://www.prixkdo.ci">www.prixkdo.ci ;</a> </p>
                     <p class="subtext"><b>Etape 2 :</b> Renseignez votre identifiant (8 derniers chiffres de la carte) et le mot de passe de votre carte et profitez de prix barrés sur l’ensemble des produits ; </p>
                     <p class="subtext"><b>Etape 3 :</b> Ajouter des produits à votre panier ; </p>
@@ -123,6 +125,7 @@
                   <div class="section-heading">
                     <h3 class="title">03. Ou se rendre chez un partenaire </h3>
                     <br>
+                    <img src="<?php echo base_url(); ?>assets/vitrine/images/etape-3.png" width="600px">
                     <p class="subtext"><b>Etape 1 :</b> Choississer votre enseigne ; </p>
                     <p class="subtext"><b>Etape 2 :</b> Rendez-vous chez le partenaire choisis ; </p>
                     <p class="subtext"><b>Etape 3 :</b> Présentez votre carte dès votre arrivée à la réception ; profitez de réductions et avantages grâce à votre carte. </p>

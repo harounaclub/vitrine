@@ -22,7 +22,7 @@
           </a>
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top:20px;">
            
            <?php include("templates/_menu_principale.php"); ?>
         
@@ -53,6 +53,7 @@
                       <div class="action-buttons">
                         <ul>
                           <li><i class="fa fa-phone"></i> +225 6777 2823 / +225 777 477 35</li>
+                          
                           
                         </ul>
                       </div>
@@ -102,9 +103,12 @@
                 <p class="last-type">
                   <i class="fa fa-envelope-o" aria-hidden="true"></i>
                   <span>
-                    info@example.com
+                    info@prixkdo.ci
                     <br>
-                    sales@example.com
+                    support@prixkdo.ci
+                    <br>
+                    Horaires de service :
+                    <br> lundi – vendredi 08h30-19h00 <br> samedi 09h00-15h00
                   </span>
                 </p>
                 <div class="social-with-label">
