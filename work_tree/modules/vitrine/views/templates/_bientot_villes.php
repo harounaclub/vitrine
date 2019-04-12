@@ -14,7 +14,7 @@
               <div class="cplgr-location-grid text-center">
                 <div class="location-thumb">
                   <a href="listing-search.html">
-                    <img src="assets/vitrine/images/city/city-thumb-3.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo base_url(); ?>assets/vitrine/images/city/city-thumb-3.jpg" class="img-responsive" alt="">
                   </a>
                 </div>
                 <div class="location-info">
@@ -30,7 +30,7 @@
               <div class="cplgr-location-grid text-center">
                 <div class="location-thumb">
                   <a href="listing-search.html">
-                    <img src="assets/vitrine/images/city/city-thumb-2.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo base_url(); ?>assets/vitrine/images/city/city-thumb-2.jpg" class="img-responsive" alt="">
                   </a>
                 </div>
                 <div class="location-info">
@@ -46,7 +46,7 @@
               <div class="cplgr-location-grid text-center">
                 <div class="location-thumb">
                   <a href="listing-search.html">
-                    <img src="assets/vitrine/images/city/city-thumb-3.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo base_url(); ?>assets/vitrine/images/city/city-thumb-3.jpg" class="img-responsive" alt="">
                   </a>
                 </div>
                 <div class="location-info">
@@ -62,7 +62,7 @@
               <div class="cplgr-location-grid text-center">
                 <div class="location-thumb">
                   <a href="listing-search.html">
-                    <img src="assets/vitrine/images/city/city-thumb-4.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo base_url(); ?>assets/vitrine/images/city/city-thumb-4.jpg" class="img-responsive" alt="">
                   </a>
                 </div>
                 <div class="location-info">

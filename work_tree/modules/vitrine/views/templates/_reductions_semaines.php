@@ -16,7 +16,7 @@
                 <div class="cplgr-listing-thumb-container">
                   <div class="cplgr-listing-thumb">
                     <a href="listing-details.html">
-                      <img src="assets/vitrine/images/listing/listing-thumb-1.jpg" class="img-responsive" alt="">
+                      <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-1.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="cplgr-listing-quick-action">
@@ -48,7 +48,7 @@
                   <div class="cplgr-listing-description">
                     <div class="author-avatar-thumb">
                       <a href="#">
-                        <img src="assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
+                        <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
                       </a>
                       <div class="cplgr-verified" title="verified"></div>
                     </div>
@@ -83,7 +83,7 @@
                                         <div class="cplgr-listing-thumb-container">
                                           <div class="cplgr-listing-thumb">
                                             <a href="#">
-                                              <img src="assets/vitrine/images/listing/listing-thumb-1.jpg" class="img-responsive" alt="">
+                                              <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-1.jpg" class="img-responsive" alt="">
                                             </a>
                                           </div>
                                           <div class="cplgr-listing-quick-action">
@@ -112,7 +112,7 @@
                                           <div class="cplgr-listing-description">
                                             <div class="author-avatar-thumb">
                                               <a href="#">
-                                                <img src="assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
+                                                <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
                                               </a>
                                               <div class="cplgr-verified" title="verified"></div>
                                             </div>
@@ -153,7 +153,7 @@
                 <div class="cplgr-listing-thumb-container">
                   <div class="cplgr-listing-thumb">
                     <a href="listing-details.html">
-                      <img src="assets/vitrine/images/listing/listing-thumb-2.jpg" class="img-responsive" alt="">
+                      <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-2.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="cplgr-listing-quick-action">
@@ -185,7 +185,7 @@
                   <div class="cplgr-listing-description">
                     <div class="author-avatar-thumb">
                       <a href="#">
-                        <img src="assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
+                        <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
                       </a>
                       <div class="cplgr-verified" title="verified"></div>
                     </div>
@@ -220,7 +220,7 @@
                                         <div class="cplgr-listing-thumb-container">
                                           <div class="cplgr-listing-thumb">
                                             <a href="#">
-                                              <img src="assets/vitrine/images/listing/listing-thumb-2.jpg" class="img-responsive" alt="">
+                                              <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-2.jpg" class="img-responsive" alt="">
                                             </a>
                                           </div>
                                           <div class="cplgr-listing-quick-action">
@@ -249,7 +249,7 @@
                                           <div class="cplgr-listing-description">
                                             <div class="author-avatar-thumb">
                                               <a href="#">
-                                                <img src="assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
+                                                <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
                                               </a>
                                               <div class="cplgr-verified" title="verified"></div>
                                             </div>
@@ -290,7 +290,7 @@
                 <div class="cplgr-listing-thumb-container">
                   <div class="cplgr-listing-thumb">
                     <a href="listing-details.html">
-                      <img src="assets/vitrine/images/listing/listing-thumb-3.jpg" class="img-responsive" alt="">
+                      <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-3.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="cplgr-listing-quick-action">
@@ -322,7 +322,7 @@
                   <div class="cplgr-listing-description">
                     <div class="author-avatar-thumb">
                       <a href="#">
-                        <img src="assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
+                        <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
                       </a>
                       <div class="cplgr-verified" title="verified"></div>
                     </div>
@@ -357,7 +357,7 @@
                                         <div class="cplgr-listing-thumb-container">
                                           <div class="cplgr-listing-thumb">
                                             <a href="#">
-                                              <img src="assets/vitrine/images/listing/listing-thumb-3.jpg" class="img-responsive" alt="">
+                                              <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-3.jpg" class="img-responsive" alt="">
                                             </a>
                                           </div>
                                           <div class="cplgr-listing-quick-action">
@@ -386,7 +386,7 @@
                                           <div class="cplgr-listing-description">
                                             <div class="author-avatar-thumb">
                                               <a href="#">
-                                                <img src="assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
+                                                <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
                                               </a>
                                               <div class="cplgr-verified" title="verified"></div>
                                             </div>

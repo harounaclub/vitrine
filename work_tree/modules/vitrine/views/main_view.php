@@ -19,9 +19,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index-2.html">
-            <img src="<?php echo base_url(); ?>assets/vitrine/images/logo.png" class="img-responsive" alt="">
-          </a>
+         <?php include("templates/_logo.php"); ?>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top:20px;">
@@ -174,7 +172,7 @@
                 <div class="cplgr-listing-thumb-container">
                   <div class="cplgr-listing-thumb">
                     <a href="#">
-                      <img src="assets/vitrine/images/listing/listing-thumb-1.jpg" class="img-responsive" alt="">
+                      <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-1.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="cplgr-listing-quick-action">
@@ -203,7 +201,7 @@
                   <div class="cplgr-listing-description">
                     <div class="author-avatar-thumb">
                       <a href="#">
-                        <img src="assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
+                        <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
                       </a>
                       <div class="cplgr-verified" title="verified"></div>
                     </div>
@@ -242,7 +240,7 @@
                 <div class="cplgr-listing-thumb-container">
                   <div class="cplgr-listing-thumb">
                     <a href="#">
-                      <img src="assets/vitrine/images/listing/listing-thumb-2.jpg" class="img-responsive" alt="">
+                      <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-2.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="cplgr-listing-quick-action">
@@ -271,7 +269,7 @@
                   <div class="cplgr-listing-description">
                     <div class="author-avatar-thumb">
                       <a href="#">
-                        <img src="assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
+                        <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
                       </a>
                       <div class="cplgr-verified" title="verified"></div>
                     </div>
@@ -310,7 +308,7 @@
                 <div class="cplgr-listing-thumb-container">
                   <div class="cplgr-listing-thumb">
                     <a href="#">
-                      <img src="assets/vitrine/images/listing/listing-thumb-3.jpg" class="img-responsive" alt="">
+                      <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-3.jpg" class="img-responsive" alt="">
                     </a>
                   </div>
                   <div class="cplgr-listing-quick-action">
@@ -339,7 +337,7 @@
                   <div class="cplgr-listing-description">
                     <div class="author-avatar-thumb">
                       <a href="#">
-                        <img src="assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
+                        <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
                       </a>
                       <div class="cplgr-verified" title="verified"></div>
                     </div>
@@ -388,7 +386,7 @@
             <div class="col-sm-4">
               <div class="work-item text-center">
                 <div class="work-thumb">
-                  <img src="assets/vitrine/images/works/icon_1.svg" class="img-responsive" alt="">
+                  <img src="<?php echo base_url(); ?>assets/vitrine/images/works/icon_1.svg" class="img-responsive" alt="">
                 </div>
                 <h6 class="work-title">Payer sa carte Prix KDO</h6>
                 <p class="subtext">La carte PRIX KDO se vend au prix unique de 10 000 Fcfa. (infos commercial)</p>
@@ -397,7 +395,7 @@
             <div class="col-sm-4">
               <div class="work-item text-center">
                 <div class="work-thumb">
-                  <img src="assets/vitrine/images/works/icon_2.svg" class="img-responsive" alt="">
+                  <img src="<?php echo base_url(); ?>assets/vitrine/images/works/icon_2.svg" class="img-responsive" alt="">
                 </div>
                 <h6 class="work-title">Parcourir la vitrine </h6>
                 <p class="subtext">Parcourir la vitrine et trouver le commerce de votre choix.</p>
@@ -406,7 +404,7 @@
             <div class="col-sm-4">
               <div class="work-item text-center">
                 <div class="work-thumb">
-                  <img src="assets/vitrine/images/works/icon_3.svg" class="img-responsive" alt="">
+                  <img src="<?php echo base_url(); ?>assets/vitrine/images/works/icon_3.svg" class="img-responsive" alt="">
                 </div>
                 <h6 class="work-title">Profiter des réductions</h6>
                 <p class="subtext">Avec votre carte de réduction , profiter de reduction à partir de 10 %.</p>
@@ -439,7 +437,7 @@
               <div class="blog-grid-item">
                 <div class="blog-thumb">
                   <a href="blog-single.html">
-                    <img src="assets/vitrine/images/blog/blog-thumb-1.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo base_url(); ?>assets/vitrine/images/blog/blog-thumb-1.jpg" class="img-responsive" alt="">
                   </a>
                   <div class="post-date">
                     <p>27 December 2017</p>
@@ -449,7 +447,7 @@
                   <div class="post-meta">
                     <div class="post-author">
                       <a href="#">
-                        <img src="assets/vitrine/images/blog/blog-author/author-1.jpg" class="img-responsive" alt="">
+                        <img src="<?php echo base_url(); ?>assets/vitrine/images/blog/blog-author/author-1.jpg" class="img-responsive" alt="">
                       </a>
                     </div>
                     <div class="post-categories">
@@ -470,7 +468,7 @@
               <div class="blog-grid-item">
                 <div class="blog-thumb">
                   <a href="blog-single.html">
-                    <img src="assets/vitrine/images/blog/blog-thumb-2.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo base_url(); ?>assets/vitrine/images/blog/blog-thumb-2.jpg" class="img-responsive" alt="">
                   </a>
                   <div class="post-date">
                     <p>27 December 2017</p>
@@ -480,7 +478,7 @@
                   <div class="post-meta">
                     <div class="post-author">
                       <a href="#">
-                        <img src="assets/vitrine/images/blog/blog-author/author-1.jpg" class="img-responsive" alt="">
+                        <img src="<?php echo base_url(); ?>assets/vitrine/images/blog/blog-author/author-1.jpg" class="img-responsive" alt="">
                       </a>
                     </div>
                     <div class="post-categories">
@@ -501,7 +499,7 @@
               <div class="blog-grid-item">
                 <div class="blog-thumb">
                   <a href="blog-single.html">
-                    <img src="assets/vitrine/images/blog/blog-thumb-3.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo base_url(); ?>assets/vitrine/images/blog/blog-thumb-3.jpg" class="img-responsive" alt="">
                   </a>
                   <div class="post-date">
                     <p>27 December 2017</p>
@@ -511,7 +509,7 @@
                   <div class="post-meta">
                     <div class="post-author">
                       <a href="#">
-                        <img src="assets/vitrine/images/blog/blog-author/author-1.jpg" class="img-responsive" alt="">
+                        <img src="<?php echo base_url(); ?>assets/vitrine/images/blog/blog-author/author-1.jpg" class="img-responsive" alt="">
                       </a>
                     </div>
                     <div class="post-categories">
