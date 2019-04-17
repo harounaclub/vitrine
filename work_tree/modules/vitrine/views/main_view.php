@@ -72,34 +72,34 @@
                       <div class="row">
                         <div class="col-lg-2 col-lg-offset-2 col-sm-3">
                           <div class="cplgr-listing-category">
-                            <a href="listing-search.html" class="cplgr-listing-icon">
+                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Loisirs et jeux" class="cplgr-listing-icon">
                               <i class="fa fa-file-video-o" aria-hidden="true"></i>
                             </a>
-                            <p><a href="listing-search.html">Loisirs / Jeux</a></p>
+                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Loisirs et jeux">Loisirs / Jeux</a></p>
                           </div>
                         </div>
                         <div class="col-lg-2 col-sm-3">
                           <div class="cplgr-listing-category">
-                            <a href="listing-search.html" class="cplgr-listing-icon">
+                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Restaurants-cafés" class="cplgr-listing-icon">
                               <i class="fa fa-leaf" aria-hidden="true"></i>
                             </a>
-                            <p><a href="listing-search.html">Restaurants</a></p>
+                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Restaurants-cafés">Restaurants</a></p>
                           </div>
                         </div>
                         <div class="col-lg-2 col-sm-3">
                           <div class="cplgr-listing-category">
-                            <a href="listing-search.html" class="cplgr-listing-icon">
+                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Hôtels" class="cplgr-listing-icon">
                               <i class="fa fa-building" aria-hidden="true"></i>
                             </a>
-                            <p><a href="listing-search.html">Hôtels</a></p>
+                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Hôtels">Hôtels</a></p>
                           </div>
                         </div>
                         <div class="col-lg-2 col-sm-3">
                           <div class="cplgr-listing-category">
-                            <a href="listing-search.html" class="cplgr-listing-icon">
+                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Boutiques" class="cplgr-listing-icon">
                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                             </a>
-                            <p><a href="listing-search.html">Boutiques</a></p>
+                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Boutiques">Boutiques</a></p>
                           </div>
                         </div>
                       </div>
@@ -154,221 +154,12 @@
 
      <!-- Popular Listing -->
 
-     <?php include("templates/_reductions_semaines.php"); ?>
+     <?php // include("templates/_reductions_semaines.php"); ?>
    
     <!-- Popular Listing End -->
 
 
-    <!-- listing-modal-content section -->
-    <div class="listing-modal-content-section">
-      <div class="container">
-        <div class="modal fade listing-modal" id="post_listing_modal_one" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog post-model">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true"><i class="fa fa-close"></i></span>
-            </button>
-            <div class="modal-content">
-              <div class="cplgr-listing-grid">
-                <div class="cplgr-listing-thumb-container">
-                  <div class="cplgr-listing-thumb">
-                    <a href="#">
-                      <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-1.jpg" class="img-responsive" alt="">
-                    </a>
-                  </div>
-                  <div class="cplgr-listing-quick-action">
-                    <ul>
-                      <li class="ratings">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                      </li>
-                      <li class="bookmark">
-                        <a href="#">
-                          <i class="fa fa-bookmark"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="cplgr-listing-grid-hover">
-                    <div class="price-range">
-                      <p>$150-$600</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="cplgr-listing-description-container">
-                  <div class="cplgr-listing-description">
-                    <div class="author-avatar-thumb">
-                      <a href="#">
-                        <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
-                      </a>
-                      <div class="cplgr-verified" title="verified"></div>
-                    </div>
-                    <div class="cplgr-listing-categories">
-                      <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Real Estate</a>
-                    </div>
-                    <div class="cplgr-status-open">
-                      <p>Open</p>
-                    </div>
-                    <div class="fix"></div>
-                    <h6 class="cplgr-listing-title">
-                      <a href="#">California housing</a>
-                    </h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                  </div>
-                  <div class="cplgr-listing-desription-footer">
-                    <a href="#" class="cplgr-listing-location"><i class="fa fa-map-marker"></i> California</a>
-                    <div class="cplgr-phone-number"><i class="fa fa-phone"></i> +1-0000-000-000</div>
-                  </div>
-                </div>
-              </div>
-              <div class="cplgr-listing-popup-map">
-                <div class="listing-popup-map" id="location-1" data-lat="40.713355" data-lng="-74.005535" data-zoom="12"></div>
-              </div>
-              <div class="fix"></div>
-            </div>
-          </div>
-        </div><!-- listing-modal -->
-        <div class="modal fade listing-modal" id="post_listing_modal_two" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog post-model">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true"><i class="fa fa-close"></i></span>
-            </button>
-            <div class="modal-content">
-              <div class="cplgr-listing-grid">
-                <div class="cplgr-listing-thumb-container">
-                  <div class="cplgr-listing-thumb">
-                    <a href="#">
-                      <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-2.jpg" class="img-responsive" alt="">
-                    </a>
-                  </div>
-                  <div class="cplgr-listing-quick-action">
-                    <ul>
-                      <li class="ratings">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                      </li>
-                      <li class="bookmark">
-                        <a href="#">
-                          <i class="fa fa-bookmark"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="cplgr-listing-grid-hover">
-                    <div class="price-range">
-                      <p>$150-$600</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="cplgr-listing-description-container">
-                  <div class="cplgr-listing-description">
-                    <div class="author-avatar-thumb">
-                      <a href="#">
-                        <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
-                      </a>
-                      <div class="cplgr-verified" title="verified"></div>
-                    </div>
-                    <div class="cplgr-listing-categories">
-                      <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Real Estate</a>
-                    </div>
-                    <div class="cplgr-status-close">
-                      <p>Close</p>
-                    </div>
-                    <div class="fix"></div>
-                    <h6 class="cplgr-listing-title">
-                      <a href="#">Las Vegas housing</a>
-                    </h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                  </div>
-                  <div class="cplgr-listing-desription-footer">
-                    <a href="#" class="cplgr-listing-location"><i class="fa fa-map-marker"></i> California</a>
-                    <div class="cplgr-phone-number"><i class="fa fa-phone"></i> +1-0000-000-000</div>
-                  </div>
-                </div>
-              </div>
-              <div class="cplgr-listing-popup-map">
-                <div class="listing-popup-map" id="location-2" data-lat="40.713355" data-lng="-74.005535" data-zoom="12"></div>
-              </div>
-              <div class="fix"></div>
-            </div>
-          </div>
-        </div><!-- listing-modal -->
-        <div class="modal fade listing-modal" id="post_listing_modal_three" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog post-model">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true"><i class="fa fa-close"></i></span>
-            </button>
-            <div class="modal-content">
-              <div class="cplgr-listing-grid">
-                <div class="cplgr-listing-thumb-container">
-                  <div class="cplgr-listing-thumb">
-                    <a href="#">
-                      <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/listing-thumb-3.jpg" class="img-responsive" alt="">
-                    </a>
-                  </div>
-                  <div class="cplgr-listing-quick-action">
-                    <ul>
-                      <li class="ratings">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                      </li>
-                      <li class="bookmark">
-                        <a href="#">
-                          <i class="fa fa-bookmark"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="cplgr-listing-grid-hover">
-                    <div class="price-range">
-                      <p>$150-$600</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="cplgr-listing-description-container">
-                  <div class="cplgr-listing-description">
-                    <div class="author-avatar-thumb">
-                      <a href="#">
-                        <img src="<?php echo base_url(); ?>assets/vitrine/images/author/author-thumb-1.jpg" class="img-responsive" alt="">
-                      </a>
-                      <div class="cplgr-verified" title="verified"></div>
-                    </div>
-                    <div class="cplgr-listing-categories">
-                      <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Real Estate</a>
-                    </div>
-                    <div class="cplgr-status-open">
-                      <p>Open</p>
-                    </div>
-                    <div class="fix"></div>
-                    <h6 class="cplgr-listing-title">
-                      <a href="#">California Resourt</a>
-                    </h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                  </div>
-                  <div class="cplgr-listing-desription-footer">
-                    <a href="#" class="cplgr-listing-location"><i class="fa fa-map-marker"></i> California</a>
-                    <div class="cplgr-phone-number"><i class="fa fa-phone"></i> +1-0000-000-000</div>
-                  </div>
-                </div>
-              </div>
-              <div class="cplgr-listing-popup-map">
-                <div class="listing-popup-map" id="location-3" data-lat="40.713355" data-lng="-74.005535" data-zoom="12"></div>
-              </div>
-              <div class="fix"></div>
-            </div>
-          </div>
-        </div><!-- listing-modal -->
-      </div>
-    </div>
-    <!-- listing-modal-content section End -->
+   
 
     <!-- How It Work -->
     <div class="cplgr-main-container section-padding">

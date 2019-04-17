@@ -3,6 +3,7 @@
 
 //configuration générale
 $BASE_URL       = "http://vitrine.local";
+$BASE_URL_IMAGE       = "http://cartes.prixkdo.local";
 $ENVIRONMENT="development";
 
 

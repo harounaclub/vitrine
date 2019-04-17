@@ -12,37 +12,37 @@
           <div class="margin-balance">
             <div class="grid collum-3 listinger-gallery">
               <div class="cplgr-category-grid-creative">
-                <a href="#">
+                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Residences">
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-1.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Residences</h6>
-                    <p class="listing-count">253 listing</p>
+                    <!-- <p class="listing-count">253 listing</p> -->
                   </div>
                   <span class="overlay"></span>
                 </a>
               </div>
               <div class="cplgr-category-grid-creative v2x">
-                <a href="#">
+                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Hôtels">
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-5.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
-                    <h6 class="category-name" >Hôtel luxueux</h6>
-                    <p class="listing-count">253 listing</p>
+                    <h6 class="category-name" >Hôtels luxueux</h6>
+                    <!-- <p class="listing-count">253 listing</p> -->
                   </div>
                   <span class="overlay"></span>
                 </a>
               </div>
               <div class="cplgr-category-grid-creative">
-                <a href="#">
+                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Restaurants-cafés">
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-2.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Restaurants &amp; Cafés</h6>
-                    <p class="listing-count">253 listing</p>
+                    <!-- <p class="listing-count">253 listing</p> -->
                   </div>
                   <span class="overlay"></span>
                 </a>
               </div>
               <div class="cplgr-category-grid-creative">
-                <a href="#">
+                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Loisirs et jeux">
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-3.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Loisirs &amp; Jeux</h6>
@@ -52,7 +52,7 @@
                 </a>
               </div>
               <div class="cplgr-category-grid-creative">
-                <a href="#">
+                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Beaute et Spa">
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-4.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Beauté &amp; Spa</h6>
