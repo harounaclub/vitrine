@@ -46,7 +46,7 @@
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-3.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Loisirs &amp; Jeux</h6>
-                    <p class="listing-count">253 listing</p>
+                    <!-- <p class="listing-count">253 listing</p> -->
                   </div>
                   <span class="overlay"></span>
                 </a>
@@ -56,7 +56,7 @@
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-4.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Beauté &amp; Spa</h6>
-                    <p class="listing-count">253 listing</p>
+                    <!-- <p class="listing-count">253 listing</p> -->
                   </div>
                   <span class="overlay"></span>
                 </a>
