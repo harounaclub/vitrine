@@ -32,7 +32,7 @@
                 </a>
               </div>
               <div class="cplgr-category-grid-creative">
-                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/Restaurants-cafés">
+                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/restaurants-et-cafes">
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-2.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Restaurants &amp; Cafés</h6>
