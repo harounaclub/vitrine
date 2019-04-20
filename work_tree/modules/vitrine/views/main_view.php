@@ -38,7 +38,7 @@
               <div class="slider-wrapper cplgr-category-slider-wrapper">
                 <div class="slider-content text-center">
                   <h2>Explorer vos villes</h2>
-                  <h6>Vous n'imaginez pas les réductions qui vous attendent autour de vos villes</h6>
+                  <h6>Vous n’imaginez pas les réductions qui vous attendent tout près de chez vous</h6>
                   <form action="#">
                     <div class="input-group input-group-1">
                       <span class="input-group-addon" id="basic-addon1">Trouver</span>
@@ -63,43 +63,46 @@
                   </form>
                   <div class="cplgr-listing-category-block">
                     <div class="cplgr-listing-category-heading">
-                      <h6>Or consulter nos catégories populaires</h6>
+                      <h6>Consulter  nos  partenaires par catégorie</h6>
                       <a href="#">
                         <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                      </a>
+                      <a href="#">
+                        Voir plus de catégories.
                       </a>
                     </div>
                     <div class="cplgr-listing-categories">
                       <div class="row">
                         <div class="col-lg-2 col-lg-offset-2 col-sm-3">
                           <div class="cplgr-listing-category">
-                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Loisirs et jeux" class="cplgr-listing-icon">
+                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/loisirs-et-jeux" class="cplgr-listing-icon">
                               <i class="fa fa-file-video-o" aria-hidden="true"></i>
                             </a>
-                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Loisirs et jeux">Loisirs / Jeux</a></p>
+                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/loisirs-et-jeux">Loisirs / Jeux</a></p>
                           </div>
                         </div>
                         <div class="col-lg-2 col-sm-3">
                           <div class="cplgr-listing-category">
-                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Restaurants-cafés" class="cplgr-listing-icon">
+                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/restaurants-et-cafes" class="cplgr-listing-icon">
                               <i class="fa fa-leaf" aria-hidden="true"></i>
                             </a>
-                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Restaurants-cafés">Restaurants</a></p>
+                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/restaurants-et-cafes">Restaurants</a></p>
                           </div>
                         </div>
                         <div class="col-lg-2 col-sm-3">
                           <div class="cplgr-listing-category">
-                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Hôtels" class="cplgr-listing-icon">
+                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/hotels" class="cplgr-listing-icon">
                               <i class="fa fa-building" aria-hidden="true"></i>
                             </a>
-                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Hôtels">Hôtels</a></p>
+                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/hotels">Hôtels</a></p>
                           </div>
                         </div>
                         <div class="col-lg-2 col-sm-3">
                           <div class="cplgr-listing-category">
-                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Boutiques" class="cplgr-listing-icon">
+                            <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/boutiques" class="cplgr-listing-icon">
                               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                             </a>
-                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Boutiques">Boutiques</a></p>
+                            <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/boutiques">Boutiques</a></p>
                           </div>
                         </div>
                       </div>

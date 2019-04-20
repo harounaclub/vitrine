@@ -81,7 +81,13 @@ $lien_url="http://cartes.gloohost.net/";
 
                 if(isset($liste_partenaire_ville)){
 
-                  foreach($liste_partenaire_ville as $itemPartenaire){ 
+                  foreach($liste_partenaire_categories as $itemPartenaire){ 
+
+                    $id_mongo=$itemPartenaire["_id"];
+                    foreach($id_mongo as $val){
+
+                      $id_partenaire=$val;
+                   }
                     
                     $id_ville=$itemPartenaire["id_ville"];
                     $nom_ville=$this->vitrine_model->mdl_nom_ville($id_ville);
@@ -98,15 +104,17 @@ $lien_url="http://cartes.gloohost.net/";
                     foreach($imagePartenaire as $imgp){
 
                       $img_part=$imgp["image"];
+                      
+                      
                     }
                     
                     ?>
 
-                   <div class="col-md-3 col-sm-3">
+<div class="col-md-3 col-sm-3">
                             <div class="cplgr-listing-grid">
                               <div class="cplgr-listing-thumb-container">
                                 <div class="cplgr-listing-thumb">
-                                  <a href="#">
+                                  <a href="<?php echo base_url(); ?>vitrine/details_partenaire/<?php echo $id_partenaire; ?>">
                                   <img src="<?php echo $lien_url; ?>uploads/partenaires/<?php echo $img_part; ?>" class="img-responsive" alt="">
                                   </a>
                                 </div>
@@ -142,14 +150,14 @@ $lien_url="http://cartes.gloohost.net/";
                                     <div class="cplgr-verified" title="verified"></div>
                                   </div>
                                   <div class="cplgr-listing-categories">
-                                    <a href="#"><i class="fa fa-home" aria-hidden="true"></i> <?php echo $ville; ?></a>
+                                    <a href="#"><i class="fa fa-home" aria-hidden="true"></i> <?php echo $categorie; ?></a>
                                   </div>
                                   <div class="cplgr-status-open">
                                     <p>Ouvert</p>
                                   </div>
                                   <div class="fix"></div>
                                   <h6 class="cplgr-listing-title">
-                                    <a href="#"><?php echo $itemPartenaire["partenaireNom_vitrine"]; ?></a>
+                                    <a href="<?php echo base_url(); ?>vitrine/details_partenaire/<?php echo $id_partenaire; ?>"><?php echo $itemPartenaire["partenaireNom_vitrine"]; ?></a>
                                   </h6>
                                   <p><?php echo substr($itemPartenaire["partenaireDescription_vitrine"],0,100); ?> . . .</p>
                                 </div>

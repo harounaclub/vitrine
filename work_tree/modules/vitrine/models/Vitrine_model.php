@@ -17,6 +17,23 @@ class Vitrine_model extends CI_Model {
 
     }
 
+    function mdl_infoCategorieCode($codecategorie_vitrine)
+    {
+  
+        $info_categorie = $this->mongo_db->where(array('codecategorie_vitrine' => $codecategorie_vitrine))->get('vitrine_categorie');
+        return $info_categorie;
+
+    }
+
+    function mdl_infoCategorieid($id_categorie)
+    {
+  
+        $convertedid=new MongoDB\BSON\ObjectId($id_categorie);
+        $info_categorie = $this->mongo_db->where(array('_id' => $convertedid))->get('vitrine_categorie');
+        return $info_categorie;
+
+    }
+
     function mdl_infoVille($ville)
     {
   
@@ -33,6 +50,17 @@ class Vitrine_model extends CI_Model {
         return $listePartenaire_ville;
 
     }
+
+
+    function mdl_listePartenaire_id($id)
+    {
+  
+        $convertedid=new MongoDB\BSON\ObjectId($id);
+        $listePartenaire = $this->mongo_db->where(array('_id' => $convertedid))->get('vitrine_partenaire');
+        return $listePartenaire;
+
+    }
+
 
     function mdl_listePartenaire_categorie($id_categorie)
     {

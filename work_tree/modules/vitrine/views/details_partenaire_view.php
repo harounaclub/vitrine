@@ -1,3 +1,59 @@
+<?php
+
+$lien_url="http://cartes.gloohost.net/";
+
+
+if(isset($info_partenaire)){
+
+  foreach($info_partenaire as $itemPartenaire){
+
+
+    $id_ville=$itemPartenaire["id_ville"];
+    $id_categorie=$itemPartenaire["id_categorie"];
+    $nom_ville=$this->vitrine_model->mdl_nom_ville($id_ville);
+    $nom_partenaire=$itemPartenaire["partenaireNom_vitrine"];
+    $localisation_partenaire=$itemPartenaire["partenaireLocalisation_vitrine"];
+    $contenu_partenaire=$itemPartenaire["partenaireContenuDescription_vitrine"];
+    $maps_partenaire=$itemPartenaire["partenaireGoogleMaps_vitrine"];
+
+    $telephone_mobile_partenaire=$itemPartenaire["partenaireTelephone_mobile_vitrine"];
+    $telephone_fixe_partenaire=$itemPartenaire["partenaireTelephone_vitrine"];
+
+    $email_partenaire=$itemPartenaire["partenaireEmail_vitrine"];
+    
+
+    $infocategorie=$this->vitrine_model->mdl_infoCategorieid($id_categorie);
+    foreach($infocategorie as $iteCat){
+
+      $nom_categorie=$iteCat["categorie_vitrine"];
+    }
+
+    $cle_image=$itemPartenaire["cle_image"];
+    $infoLogo=$this->vitrine_model->mdl_imageLogo($cle_image);
+    $imagePartenaire=$this->vitrine_model->mdl_ListImagesPartenairesAutres($cle_image);
+                    
+                    foreach($infoLogo as $logo){
+
+                      $img_logo=$logo["image"];
+                    }
+
+                    foreach($imagePartenaire as $imgp){
+
+                      $img_part=$imgp["image"];
+                      
+                      
+                    }
+
+
+
+
+  }
+
+  
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,20 +83,24 @@
       </div>
     </nav>
 
+   
+
     <div class="slider">
       <div class="cplgr-slider-content">
         <div class="container">
+
+        
           <div class="row">
             <div class="col-md-12">
               <div class="cplgr-listing-details-slider-wrapper">
                 <div class="slider-content text-center">
                   <div class="cplgr-lising-avater">
-                    <img src="<?php echo base_url(); ?>assets/vitrine/images/listing/author/3.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo $lien_url; ?>uploads/logo/<?php echo $img_logo; ?>" class="img-responsive" alt="">
                     <div class="avater-varified"></div>
                   </div>
-                  <h3><a href="#">Hotel California</a></h3>
-                  <p class="cplgr-listing-type"><a href="#">Hotel & Restaurant</a></p>
-                  <p class="cplgr-listing-address">215 College Street, California, CA758423</p>
+                  <h3><a href="#"><?php echo $nom_partenaire; ?></a></h3>
+                  <p class="cplgr-listing-type"><a href="#"><?php echo $nom_categorie; ?></a></p>
+                  <p class="cplgr-listing-address"><?php echo $localisation_partenaire; ?>, <?php echo $telephone_mobile_partenaire; ?></p>
                   <div class="rating-area">
                     <ul>
                       <li><i class="fa fa-star"></i></li>
@@ -49,19 +109,17 @@
                       <li><i class="fa fa-star"></i></li>
                       <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <span>(2 Reviews)</span>
+                    
                   </div>
-                  <div class="cplgr-favorite-list-count">
-                    <p><i class="fa fa-heart-o"></i> 5 Favorites</p>
-                  </div>
+                  
                 </div>
                 <div class="cplgr-subheader-navigation-block">
                   <div class="row">
                     <div class="col-md-6">
                       <ul class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Restaurant</a></li>
-                        <li class="active">Hotel California</li>
+                        <li><a href="<?php echo base_url(); ?>">Accueil</a></li>
+                       
+                        <li class="active"><?php echo $nom_partenaire; ?></li>
                       </ul>
                     </div>
                     <div class="col-md-6">
@@ -77,18 +135,44 @@
         </div>
       </div>
       <div id="cplgr-listing-details-slider" class="cplgr-listing-details-slider">
-        <div class="listing-details-slider-bg-1" style="background: url(<?php echo base_url(); ?>assets/vitrine/images/bg/inner-intro-bg.jpg);">
-          <div class="listing-details-slider-item">
-          </div>
-        </div>
-        <div class="listing-details-slider-bg-2">
-          <div class="listing-details-slider-item">
-          </div>
-        </div>
-        <div class="listing-details-slider-bg-3">
-          <div class="listing-details-slider-item">
-          </div>
-        </div>
+
+      <?php
+
+      if(isset($info_partenaire)){
+
+        foreach($info_partenaire as $itemImage){
+
+          $imagePartenaire=$this->vitrine_model->mdl_ListImagesPartenairesAutres($cle_image);
+                    
+                    
+
+                    foreach($imagePartenaire as $imgp){
+
+                     
+
+                      $img_part=$imgp["image"];
+
+                    ?>
+
+                      <div class="listing-details-slider-bg-1" style="background: url(<?php echo $lien_url; ?>uploads/partenaires/<?php echo $img_part; ?>);">
+                        <div class="listing-details-slider-item">
+                        </div>
+                      </div>
+
+                    <?php
+                      
+                      
+                    }
+
+
+        }
+      }
+      
+      
+      ?>
+       
+        
+       
       </div>
     </div>
 
@@ -99,12 +183,16 @@
           <div class="col-md-9">
             <div class="cplgr-listing-details-container">
               <div class="cplgr-listing-details">
-                <h5 class="listing-title">Best Restaurant in Town</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque </p>
+
+
+              <?php echo $contenu_partenaire; ?>
+                 
                 
                 <div class="cplgr-listing-video">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://player.vimeo.com/video/45064484?title=0&amp;byline=0&amp;portrait=0" width="640" height="268"></iframe>
+
+                      <?php echo $maps_partenaire; ?>
+      
                   </div>
                 </div>
                 
@@ -169,25 +257,32 @@
                 <div class="contact-address">
                   <p class="address">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <span>256 Christchurch Road, <br> California, CA785853</span>
+                    <span><?php echo $localisation_partenaire; ?> </span>
                   </p>
                   <p>
                     <i class="fa fa-phone" aria-hidden="true"></i>
                     <span>
-                      +1-0000-000-000
+                    <?php echo $telephone_fixe_partenaire; ?>
                       <br>
-                      +1-0000-000-000
+                      <?php echo $telephone_mobile_partenaire; ?>
                     </span>
                   </p>
                   <p>
+
+                  <?php if(isset($email_partenaire)){ ?>
+
+
                     <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                    <span>info@example.com</span>
+                    <span><?php echo $email_partenaire; ?></span>
+
+
+
+                  <?php } 
+                  ?>
+                    
                   </p>
-                  <p>
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                    <span><a href="#">www.example.com</a></span>
-                  </p>
-                  <ul class="social-link">
+                  
+                  <!-- <ul class="social-link">
                     <li>
                       <a href="#">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -213,7 +308,7 @@
                         <i class="fa fa-google-plus" aria-hidden="true"></i>
                       </a>
                     </li>
-                  </ul>
+                  </ul> -->
                   <p>
                    
                   </p>

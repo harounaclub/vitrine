@@ -12,7 +12,7 @@
           <div class="margin-balance">
             <div class="grid collum-3 listinger-gallery">
               <div class="cplgr-category-grid-creative">
-                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Residences">
+                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/residences">
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-1.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Residences</h6>
@@ -22,7 +22,7 @@
                 </a>
               </div>
               <div class="cplgr-category-grid-creative v2x">
-                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Hôtels">
+                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/hotels">
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-5.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Hôtels luxueux</h6>
@@ -32,7 +32,7 @@
                 </a>
               </div>
               <div class="cplgr-category-grid-creative">
-                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Restaurants-cafés">
+                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/Restaurants-cafés">
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-2.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Restaurants &amp; Cafés</h6>
@@ -42,7 +42,7 @@
                 </a>
               </div>
               <div class="cplgr-category-grid-creative">
-                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Loisirs et jeux">
+                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/loisirs-et-jeux">
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-3.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Loisirs &amp; Jeux</h6>
@@ -52,7 +52,7 @@
                 </a>
               </div>
               <div class="cplgr-category-grid-creative">
-                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie/Beaute et Spa">
+                <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/beaute-et-spa">
                   <img src="<?php echo base_url(); ?>assets/vitrine/images/gallery/gallery-4.jpg" class="img-responsive" alt="FlexO Image Gallery">
                   <div class="overlay-content">
                     <h6 class="category-name" >Beauté &amp; Spa</h6>

@@ -114,10 +114,35 @@ class Vitrine extends MX_Controller {
          
     }
 
-    //details partenaire
-    function details_partenaire(){
+    function recherche_categorie_code($code){
 
-        $this->load->view("details_partenaire_view");
+
+        $libelle_code=urldecode($code);
+        $info_categorie=$this->vitrine_model->mdl_infoCategorieCode($libelle_code);
+        foreach($info_categorie as $infoCat){
+
+            $id_mongo=$infoCat["_id"];
+            $categorie_vitrine=$infoCat["categorie_vitrine"];
+        
+            foreach($id_mongo as $val){
+
+                $id_categorie=$val;
+            }
+
+        }
+
+        $data["categorie"]=$categorie_vitrine;
+ 
+        $data["liste_partenaire_categories"]=$this->vitrine_model->mdl_listePartenaire_categorie($id_categorie);
+        $this->load->view("recherche_par_categorie_view",$data);
+         
+    }
+
+    //details partenaire
+    function details_partenaire($id_partenaire){
+        
+       $data["info_partenaire"]=$this->vitrine_model->mdl_listePartenaire_id($id_partenaire);
+        $this->load->view("details_partenaire_view",$data);
          
     }
     
