@@ -329,7 +329,7 @@ if(isset($info_partenaire)){
               <div class="widget contact-form-wdiget">
                 <div class="widget-title">
                   <p>
-                  <i class="fa fa-info-circle" aria-hidden="true"></i> Ecrire à 
+                  <i class="fa fa-info-circle" aria-hidden="true"></i> Ecrire à <?php echo $nom_partenaire; ?>
                   </p>
                 </div>
                 <div class="widget-body">
