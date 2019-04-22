@@ -15,6 +15,7 @@ if(isset($info_partenaire)){
     $localisation_partenaire=$itemPartenaire["partenaireLocalisation_vitrine"];
     $contenu_partenaire=$itemPartenaire["partenaireContenuDescription_vitrine"];
     $maps_partenaire=$itemPartenaire["partenaireGoogleMaps_vitrine"];
+    $partenaireReduction_vitrine=$itemPartenaire["partenaireReduction_vitrine"];
 
     $telephone_mobile_partenaire=$itemPartenaire["partenaireTelephone_mobile_vitrine"];
     $telephone_fixe_partenaire=$itemPartenaire["partenaireTelephone_vitrine"];
@@ -251,7 +252,7 @@ if(isset($info_partenaire)){
             <div class="sidebar">
               <div class="widget contact-widget">
                 <div id="map-area" class="map-area section" style=" text-align:center;">
-                       <div style="font-size:50px; color:green;">12 %</div>
+                       <div style="font-size:50px; color:green;"><?php echo $partenaireReduction_vitrine; ?> %</div>
                        <div style="font-size:20px; color:green;">de reductions</div>
                 </div>
                 <div class="contact-address">
