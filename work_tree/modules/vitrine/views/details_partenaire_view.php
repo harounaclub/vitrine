@@ -1,6 +1,6 @@
 <?php
 
-$lien_url="http://cartes.gloohost.net/";
+$lien_url="http://cartes.gloohost.com/";
 
 
 if(isset($info_partenaire)){
