@@ -14,7 +14,9 @@ class Vitrine extends MX_Controller {
 
     function index(){
 
-       $this->load->view("main_view");
+
+       $data["listeCategories"]=$this->vitrine_model->mdl_listCategorie();
+       $this->load->view("main_view",$data);
         
     }
 

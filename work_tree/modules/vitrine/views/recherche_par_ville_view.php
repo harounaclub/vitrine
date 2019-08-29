@@ -81,7 +81,7 @@ $lien_url="http://cartes.gloohost.com/";
 
                 if(isset($liste_partenaire_ville)){
 
-                  foreach($liste_partenaire_categories as $itemPartenaire){ 
+                  foreach($liste_partenaire_ville as $itemPartenaire){ 
 
                     $id_mongo=$itemPartenaire["_id"];
                     foreach($id_mongo as $val){
@@ -96,11 +96,13 @@ $lien_url="http://cartes.gloohost.com/";
                     $infoLogo=$this->vitrine_model->mdl_imageLogo($cle_image);
                     $imagePartenaire=$this->vitrine_model->mdl_ListImagesPartenairesAutres($cle_image);
                     
+                    $img_logo="";
                     foreach($infoLogo as $logo){
 
                       $img_logo=$logo["image"];
                     }
 
+                    $img_part="";
                     foreach($imagePartenaire as $imgp){
 
                       $img_part=$imgp["image"];
@@ -115,7 +117,24 @@ $lien_url="http://cartes.gloohost.com/";
                               <div class="cplgr-listing-thumb-container">
                                 <div class="cplgr-listing-thumb">
                                   <a href="<?php echo base_url(); ?>vitrine/details_partenaire/<?php echo $id_partenaire; ?>">
-                                  <img src="<?php echo $lien_url; ?>uploads/partenaires/<?php echo $img_part; ?>" class="img-responsive" alt="">
+                                 
+                                  <?php
+
+                                    if($img_part ==""){ ?>
+
+                                      <br><br><br><br><br><br>
+
+
+                                    <?php  }else{ ?>
+
+                                    <img src="<?php echo $lien_url; ?>uploads/partenaires/<?php echo $img_part; ?>" class="img-responsive" alt="">
+
+
+                                    <?php  }
+                                      
+                                      
+                                      
+                                    ?>
                                   </a>
                                 </div>
                                 <div class="cplgr-listing-quick-action">
@@ -150,7 +169,7 @@ $lien_url="http://cartes.gloohost.com/";
                                     <div class="cplgr-verified" title="verified"></div>
                                   </div>
                                   <div class="cplgr-listing-categories">
-                                    <a href="#"><i class="fa fa-home" aria-hidden="true"></i> <?php echo $categorie; ?></a>
+                                    <a href="#"><i class="fa fa-home" aria-hidden="true"></i> <?php echo $ville; ?></a>
                                   </div>
                                   <div class="cplgr-status-open">
                                     <p>Ouvert</p>

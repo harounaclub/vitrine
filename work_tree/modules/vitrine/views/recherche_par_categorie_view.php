@@ -96,10 +96,13 @@ $lien_url="http://cartes.gloohost.com/";
                     $infoLogo=$this->vitrine_model->mdl_imageLogo($cle_image);
                     $imagePartenaire=$this->vitrine_model->mdl_ListImagesPartenairesAutres($cle_image);
                     
+                    $img_logo="";
                     foreach($infoLogo as $logo){
 
                       $img_logo=$logo["image"];
                     }
+
+                    $img_part="";
 
                     foreach($imagePartenaire as $imgp){
 
@@ -115,7 +118,24 @@ $lien_url="http://cartes.gloohost.com/";
                               <div class="cplgr-listing-thumb-container">
                                 <div class="cplgr-listing-thumb">
                                   <a href="<?php echo base_url(); ?>vitrine/details_partenaire/<?php echo $id_partenaire; ?>">
+                                  <?php
+
+                                  if($img_part ==""){ ?>
+
+                                    <br><br><br><br><br><br>
+
+
+                                 <?php  }else{ ?>
+
                                   <img src="<?php echo $lien_url; ?>uploads/partenaires/<?php echo $img_part; ?>" class="img-responsive" alt="">
+
+
+                                <?php  }
+                                    
+                                    
+                                    
+                                  ?>
+                                 
                                   </a>
                                 </div>
                                 <div class="cplgr-listing-quick-action">

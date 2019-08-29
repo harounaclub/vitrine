@@ -67,7 +67,7 @@
                       <a href="#">
                         <i class="fa fa-angle-double-down" aria-hidden="true"></i>
                       </a>
-                      <a href="#">
+                      <a href="javascript:void(0)" id="btn_plusC">
                         Voir plus de catégories.
                       </a>
                     </div>
@@ -105,13 +105,48 @@
                             <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/boutiques">Boutiques</a></p>
                           </div>
                         </div>
+                        
+
+                        <div class="row" id="autre_categories">
+
+          <?php
+
+          if(isset($listeCategories)){
+
+            foreach($listeCategories as $valC){ ?>
+
+          <div class="col-lg-2 col-sm-3">
+            <div class="cplgr-listing-category">
+              <a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/<?php echo $valC["codecategorie_vitrine"] ?>" class="cplgr-listing-icon">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </a>
+              <p><a href="<?php echo base_url(); ?>vitrine/recherche_categorie_code/<?php echo $valC["codecategorie_vitrine"] ?>"><?php echo $valC["categorie_vitrine"] ?></a></p>
+            </div>
+          </div>
+
+
+
+          <?php }
+          }
+          ?>
+
+          </div>
+
+                        
+
+                        
+                        
+                      
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
+            
           </div>
+          
         </div>
       </div>
       <div id="cplgr-main-slider" class="cplgr-main-slider">
@@ -337,6 +372,21 @@
     <!-- Footer End -->
 
     <?php include("templates/_jsfooter.php") ?>
+
+    <script>
+
+      $( document ).ready(function() {
+          console.log( "ready!" );
+          $("#autre_categories").hide();
+      });
+
+      $( "#btn_plusC" ).click(function() {
+
+        $("#autre_categories").show();
+       
+      });
+
+    </script>
 
 
 

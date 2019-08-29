@@ -9,6 +9,14 @@ class Vitrine_model extends CI_Model {
 
     }
 
+    function mdl_listCategorie()
+    {
+  
+        $liste_categories = $this->mongo_db->get('vitrine_categorie');
+        return $liste_categories;
+
+    }
+
     function mdl_infoCategorie($categorie_vitrine)
     {
   
